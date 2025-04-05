@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diverse Spanish</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #8f98ff;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    main {
+      padding: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hola, soy Rai</h1>
+    <p>Profesora de español e intérprete</p>
+  </header>
+
+  <main>
+    <h2>Clases 1:1 disponibles</h2>
+    <p>Reserva una clase personalizada conmigo</p>
+  </main>
+
+  <!-- Calendly badge widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    window.onload = function () {
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/raifranco?hide_gdpr_banner=1',
+        text: 'Book a 1:1 lesson',
+        color: '#8f98ff',
+        textColor: '#ffffff',
+        branding: true
+      });
+    };
+  </script>
+</body>
+</html>
